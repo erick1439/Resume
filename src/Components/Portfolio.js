@@ -1,30 +1,33 @@
-import React, { Component } from 'react';
+import React from 'react';
 import Slider from 'react-animated-slider';
 import 'react-animated-slider/build/horizontal.css';
 
-class Portfolio extends Component {
-  render() {
-    if(this.props.data){
+const Portfolio = ({portfolio}) => {
+
+  let slides;
+
+  if (portfolio.projects) {
   
-      var slides = this.props.data.check.map(function(slide, index) { 
-        var examples = slide.images.map(function(image, index) {
-          return (
-            <img key={index} src={'images/portfolio/' + image} alt={slide.title + " example #" + index} height={slide.size} width={slide.size}/> 
-          )
-        })
+    slides = portfolio.projects.map((slide, index) => { 
 
+      let examples = slide.images.map((image, index) => {
         return (
-          <div key={index} className="projectcontainer">
-            <h2>{slide.title}</h2>
-            <div>{slide.description}</div>
-            <div className="projectexamples">{examples}</div>
-          </div>
+          <img key={index} src={'images/portfolio/' + image} alt={slide.title + " example #" + index} height={slide.size} width={slide.size}/> 
         )
-      })
-    }
+      });
 
-    return (
-      <section id="portfolio">
+      return (
+        <div key={index} className="projectcontainer">
+          <h2>{slide.title}</h2>
+          <div>{slide.description}</div>
+          <div className="projectexamples">{examples}</div>
+        </div>
+      )
+    })
+  }
+
+  return(
+    <section id="portfolio">
       <div>
         <div>
           <h1><span>Projects</span></h1>
@@ -33,9 +36,8 @@ class Portfolio extends Component {
           </div>
         </div>
       </div>
-   </section>
-    );
-  }
+    </section>
+  );
 }
 
 export default Portfolio;

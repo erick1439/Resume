@@ -1,57 +1,45 @@
-import React, { Component } from 'react';
-import ReactGA from 'react-ga';
-import $ from 'jquery';
-import './App.css';
+import React, { useState, useEffect } from 'react';
 import Header from './Components/Header';
 import Footer from './Components/Footer';
 import About from './Components/About';
 import Resume from './Components/Resume';
 import Portfolio from './Components/Portfolio';
 
-class App extends Component {
+const App = () => {
 
-  constructor(props){
-    super(props);
-    this.state = {
-      foo: 'bar',
-      resumeData: {}
-    };
+  const [main, setMain] = useState({});
+  const [resume, setResume] = useState({});
+  const [portfolio, setPortfolio] = useState({});
 
-    ReactGA.initialize('UA-110570651-1');
-    ReactGA.pageview(window.location.pathname);
 
-  }
+  useEffect(() => {
 
-  getResumeData(){
-    $.ajax({
-      url:'/resumeData.json',
-      dataType:'json',
-      cache: false,
-      success: function(data){
-        this.setState({resumeData: data});
-      }.bind(this),
-      error: function(xhr, status, err){
-        console.log(err);
-        alert(err);
-      }
-    });
-  }
+    fetch('resumeData.json')
+      .then((response) => response.json())
+      .then(((data) => {
 
-  componentDidMount(){
-    this.getResumeData();
-  }
+        const {main, resume, portfolio} = data;
 
-  render() {
-    return (
-      <div className="App">
-        <Header data={this.state.resumeData.main}/>
-        <About data={this.state.resumeData.main}/>
-        <Resume data={this.state.resumeData.resume}/>
-        <Portfolio data={this.state.resumeData.portfolio}/>
-        <Footer data={this.state.resumeData.main}/>
-      </div>
-    );
-  }
+        setMain(main);
+        setResume(resume);
+        setPortfolio(portfolio);
+
+      }))
+      .catch((error) => {
+
+        console.log(error);
+      });
+  }, []);
+
+  return (
+    <div className="App">
+      <Header main={main}/>
+      <About main={main}/>
+      <Resume resume={resume}/>
+      <Portfolio portfolio={portfolio}/>
+      <Footer main={main}/>
+    </div>
+  );
 }
 
 export default App;
