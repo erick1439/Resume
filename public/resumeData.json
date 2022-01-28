@@ -2,9 +2,9 @@
   "main": { 
     "name":"Erick Pena",
     "occupation":"Sotware Engineer",
-    "description":"I am a highly motivated student with a strong Computer Science background. I am very passionate about programming and I am always looking for new technologies to learn. Seek to pursue a new position with room for advancement alongside a growing team.",
+    "description":"I am a highly motivated profesional with a strong Computer Science background. I am very passionate about programming and I am always looking for new technologies to learn. Seek to pursue a new position with room for advancement alongside a growing team",
     "image":"profilepic.jpeg",
-    "bio":"I am an enthusiastic person with a great passion for programming. This year I am graduating from the University of Central Florida with a bachelor’s degree in computer science and I think I am ready to put all of my learned skills to practice. Even though this is my last year as a student, I know there is a lot of new concepts and technologies that can be learned which make me see the future with excitement. Apart from programming some of the activities that keep me busy are learning to play the guitar and taking Portuguese lessons. Feel free to check my work and if you have any question don't hesitate to contact me.",
+    "bio":"I am an enthusiastic person with a great passion for programming. I graduated from the University of Central Florida in the year 2020 with a bachelor’s degree in computer science. I have been in the work force for more than a year now. In this time I have come to realize that there is a whole world that is yet to be explore. Many opportunities in the this amazing field make me see the future with excitement. Apart from programming some of the activities that keep me busy are learning to play the guitar and taking Portuguese lessons. Feel free to check my work and if you have any question don't hesitate to contact me.",
     "contactmessage":"Here is where you should write your message to readers to have them get in contact with you.",
     "email": "erick1439@live.com",
     "phone": "(845)-461-9811",
@@ -40,7 +40,7 @@
         "school":"University of Central Florida",
         "degree":"Bachelor of Computer Science",
         "graduated":"August 2020",
-        "description":"This is the school I am currently attending and where I have been able to solidify many of my skills. Some of my favorite courses I have taken are parallel computing, computer graphics, and artificial intelligence. Also, during my time here I have been part of the Dean’s List multiple occasions for maintaining a GPA above 3.8."
+        "description":"This is the institute where I was able to solidify many of my skills. Some of my favorite courses I have taken are parallel computing, computer graphics, and artificial intelligence. Also, during my time here I have been part of the Dean’s List multiple occasions for maintaining a GPA above 3.8."
       },
       {
         "school":"Valencia College",
@@ -94,23 +94,23 @@
       },
       {
         "name":"JavaScript",
-        "level":"85%"
+        "level":"92%"
       },
       {
         "name":"C",
-        "level":"75%"
-      },
-      {
-        "name":"Mern Stack",
-        "level":"70%"
-      },
-      {
-        "name":"HTML & CSS",
         "level":"80%"
       },
       {
+        "name":"Mern Stack",
+        "level":"85%"
+      },
+      {
+        "name":"HTML & CSS",
+        "level":"87%"
+      },
+      {
         "name":"Git",
-        "level":"70%"
+        "level":"84%"
       },
       {
         "name":"Microsoft Office",
