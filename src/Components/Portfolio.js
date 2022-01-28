@@ -18,7 +18,7 @@ const Portfolio = ({portfolio}) => {
 
       return (
         <div key={index} className="projectcontainer">
-          <h2>{slide.title}</h2>
+          { slide.link === "" ? <h2>{slide.title}</h2> : <h2><a style={{color: 'black'}} href={slide.link} target='_blank'>{slide.title}</a></h2> }
           <div>{slide.description}</div>
           <div className="projectexamples">{examples}</div>
         </div>
