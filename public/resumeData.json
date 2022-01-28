@@ -129,7 +129,7 @@
       },
       {
         "title":"Weather 24/7",
-        "description": "This is a responsive website that allows users to check forecast and news of any city of their choice. The website will make use of third-party APIs to gather the all the info that the user requests",
+        "description": "This is a responsive website that allows users to check forecast and news of any city of their choice. The website will make use of third-party APIs to gather the all the info that the user requests. You can check the app at: http://weather24-7.herokuapp.com/",
         "images": ["weatherApp1.png", "weatherApp2.png"],
         "link": "http://weather24-7.herokuapp.com/",
         "size": "470"
@@ -142,7 +142,7 @@
       },
       {
         "title":"3D Cell Model",
-        "description": "Develop in JavaScript with the help of Three.js, HTML, CSS, and Vectary. This is an interactive 3d project that allows users to learn the anatomy of an animal cell.",
+        "description": "Develop in JavaScript with the help of Three.js, HTML, CSS, and Vectary. This is an interactive 3d project that allows users to learn the anatomy of an animal cell. You can check the app at: https://cell-model-3d.herokuapp.com/",
         "images": ["3dCell1.png","3dCell2.png"],
         "link": "http://weather24-7.herokuapp.com/",
         "size": "470"
