@@ -122,7 +122,7 @@
     "projects": [
       {
         "title":"Contacts Manger",
-        "description": "This is a friendly responsive website that allows you to store all of your contacts in an organize manner. This project was developed with MongoDB, Express.js, React.js, and Node.js.",
+        "description": "This is a friendly responsive website that allows you to store all of your contacts in an organize manner. This project was developed with MongoDB, Express.js, React.js, and Node.js. You can check the app at: https://contacts-website.herokuapp.com",
         "images": ["contactsManager1.png","contactsManager2.png"],
         "link": "https://contacts-website.herokuapp.com/",
         "size": "470"
