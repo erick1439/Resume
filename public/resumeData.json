@@ -136,7 +136,7 @@
       },
       {
         "title":"SQL-GUI",
-        "description": "This is a Java-based GUI application that will connect to your MySQL server via JDBC allowing you to run SQL queries and have visual representation of your data",
+        "description": "This is a Java-based GUI application that will connect to your MySQL server via JDBC allowing you to run SQL queries and have visual representation of your data. The application was develop with Java, Java-Swing, and SQL",
         "images": ["SQL-GUI1.png","SQL-GUI2.png"],
         "links": {"liveDemo": "" , "github": "https://github.com/erick1439/SQL-GUI"},
         "size": "470"
