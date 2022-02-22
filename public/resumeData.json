@@ -52,27 +52,27 @@
     "work":[
       {
         "company":"Tata Consultancy Services",
-        "title":"Software Engineer",
+        "title":"Software Engineer Analyst",
         "years":"January 2021 - Present",
-        "descriptions": ["Develop, create, and modify software applications based on client requirements",
-          "Maintain systems by monitoring, identifying, and correcting software defects",
-          "Update knowledge and skills though external courses, manuals, and new applications"
+        "descriptions": ["Worked with technical team to maintain application that is used to provide services and solutions to more than 2 million businesses",
+          "Tested software before deployment for bugs, speed, and efficiently reducing the number of reported complaints by 14%",
+          "Created additional training material to help new co-workers accelerate their training process from 3 to 2 weeks; the training material is still in use to this day, and it has helped 15+ employees"
         ]
       },
       {
-        "company":"XI Media Labs",
-        "title":"Software Developer Intern",
-        "years":"January 2020 - August 2020",
-        "descriptions": ["Collaborated to develop a digital wallet and currency for a mobile dating app called Flairr",
-          "Assisted to create RESTful APIs in order to connect the mobile app and cryptocurrency network",
-          "Participated with multiple developers in brainstorming future ideas and features for the mobile app"
+        "company":"Flairr Labs",
+        "title":"Software Developer",
+        "years":"January 2020 - Nov 2020",
+        "descriptions": ["Developed cryptocurrency using DAG technology which helped to improve the number of transactions from 4 to 230 transactions per second from previous blockchain implementation",
+          "Develop set of APIs to connect gaming mobile app to cryptocurrency network to distribute 100,000+ virtual coins to users who successfully complete augmented-reality challenges",
+          "Recognized by UCF’s CECS showcase as innovative project and made an appearance in local news"
         ]
       },
       {
         "company":"Self Employed",
         "title":"Computer Science and Math Tutor",
         "years":"January 2019 – March 2020",
-        "descriptions": ["Worked closely with UCF students in one-to-one sessions to provide supplemental tutoring",
+        "descriptions": ["Worked closely with UCF students provide supplemental tutoring",
           "Elaborated different lessons plans to accommodate students at different levels and improve effectiveness",
           "Tutored courses such as Data Structures and Algorithms, Intro to C programming, OOP, and Calculus"
         ]
