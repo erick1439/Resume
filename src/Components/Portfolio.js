@@ -7,8 +7,12 @@ const Portfolio = ({portfolio}) => {
   let slides;
 
   if (portfolio.projects) {
-  
+
     slides = portfolio.projects.map((slide, index) => { 
+
+      let icons = slide.icons.map((icon, index) => {
+        return <li key={index}><a href={icon.url} target='_blank'><i className={icon.className}></i></a></li>
+      });
 
       let examples = slide.images.map((image, index) => {
         return (
@@ -18,7 +22,12 @@ const Portfolio = ({portfolio}) => {
 
       return (
         <div key={index} className="projectcontainer">
-          { slide.link === "" ? <h2>{slide.title}</h2> : <h2><a style={{color: 'black'}} href={slide.link} target='_blank'>{slide.title}</a></h2> }
+          <div className='projectcontainertitle'>
+            <h2>{slide.title}</h2>
+            <ul>
+              {icons}
+            </ul>
+          </div>
           <div>{slide.description}</div>
           <div className="projectexamples">{examples}</div>
         </div>

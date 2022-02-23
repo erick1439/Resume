@@ -449,6 +449,15 @@ ul#nav li.current a { color: #F06000; }
    margin: 30px;
 }
 
+.projectcontainertitle {
+   display: flex;
+   justify-content: center;
+}
+
+.projectcontainertitle ul {
+   display: flex;
+}
+
 /* Portfolio Content */
 #portfolio-wrapper .columns { margin-bottom: 36px; }
 .portfolio-item .item-wrap {

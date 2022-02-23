@@ -124,63 +124,120 @@
         "title":"Contacts Manger",
         "description": "This is a friendly responsive website that allows you to store all of your contacts in an organize manner. This project was developed with MongoDB, Express.js, React.js, and Node.js. You can check the app at: https://contacts-website.herokuapp.com",
         "images": ["contactsManager1.png","contactsManager2.png"],
-        "links": {"liveDemo": "https://contacts-website.herokuapp.com/" , "github": "https://github.com/erick1439/Contacts"},
+        "icons": [
+          { 
+            "name":"website-contacts",
+            "url":"https://contacts-website.herokuapp.com/",
+            "className":"fa fa-globe"
+          }, 
+          {
+            "name":"github-contacts",
+            "url":"https://github.com/erick1439/Contacts",
+            "className":"fa fa-github"
+          }
+        ],
         "size": "470"
       },
       {
         "title":"Weather 24/7",
         "description": "This is a responsive website that allows users to check forecast and news of any city of their choice. The website will make use of third-party APIs to gather the all the info that the user requests. You can check the app at: http://weather24-7.herokuapp.com/",
         "images": ["weatherApp1.png", "weatherApp2.png"],
-        "links": {"liveDemo": "https://weather24-7.herokuapp.com/" , "github": "https://github.com/erick1439/WeatherApp"},
+        "icons": [
+          { 
+            "name":"website-weather",
+            "url":"https://weather24-7.herokuapp.com/",
+            "className":"fa fa-globe"
+          }, 
+          {
+            "name":"github-weather",
+            "url":"https://github.com/erick1439/WeatherApp",
+            "className":"fa fa-github"
+          }
+        ],
         "size": "470"
       },
       {
         "title":"SQL-GUI",
         "description": "This is a Java-based GUI application that will connect to your MySQL server via JDBC allowing you to run SQL queries and have visual representation of your data. The application was develop with Java, Java-Swing, and SQL",
         "images": ["SQL-GUI1.png","SQL-GUI2.png"],
-        "links": {"liveDemo": "" , "github": "https://github.com/erick1439/SQL-GUI"},
+        "icons": [
+          {
+            "name":"github-sql-gui",
+            "url":"https://github.com/erick1439/SQL-GUI",
+            "className":"fa fa-github"
+          }
+        ],
         "size": "470"
       },
       {
         "title":"Character Keep",
         "description": "This forms part of a group project where the application was responsible to generate, collect, and save data from tabletop games such as Warhammer. I was in charge to create the mobile component of the interactive application on Android with the use of Java.",
         "images": ["characterKeeper1.png","characterKeeper2.png"],
-        "links": {"liveDemo": "" , "github": ""},
+        "icons": [],
         "size": "470"
       },
       {
         "title":"3D Cell Model",
         "description": "Develop in JavaScript with the help of Three.js, HTML, CSS, and Vectary. This is an interactive 3d project that allows users to learn the anatomy of an animal cell. You can check the app at: https://cell-model-3d.herokuapp.com/",
         "images": ["3dCell1.png","3dCell2.png"],
-        "links": {"liveDemo": "https://cell-model-3d.herokuapp.com/" , "github": "https://github.com/erick1439/3d-Cell-Model"},
+        "icons": [
+          { 
+            "name":"website-cell",
+            "url":"https://cell-model-3d.herokuapp.com/",
+            "className":"fa fa-globe"
+          }, 
+          {
+            "name":"github-cell",
+            "url":"https://github.com/erick1439/3d-Cell-Model",
+            "className":"fa fa-github"
+          }
+        ],
         "size": "470"
       },
       {
         "title":"Atlantic Trails Resort",
         "description": "Developed with the use of HTML, CSS, JavaScript, and jQuery. This is a friendly responsive website used as the main online tool to represent a vacation Resort.",
         "images": ["atlantic1.png","atlantic2.png"],
-        "links": {"liveDemo": "" , "github": "https://github.com/erick1439/Atlantic-Trails-Resort"},
+        "icons": [
+          {
+            "name":"github-atlantic",
+            "url":"https://github.com/erick1439/Atlantic-Trails-Resort",
+            "className":"fa fa-github"
+          }
+        ],
         "size": "470"
       },
       {
         "title":"PL/0 Compiler",
         "description": "Develop in C, this program takes PL/0 instructions then it reads them character by character detecting any syntax errors, then it will parse it, and output the result from many of the logistics operations that was able to perform.",
         "images": [],
-        "links": {"liveDemo": "" , "github": ""},
+        "icons": [],
         "size": "470"
       },
       {
         "title":"Durable Queue for Non-Volatile Memory:",
         "description": "This is part of a published research report that explains the scalability from the implementation of a durable queue for non-volatile memory created by my colleagues and me.",
         "images": [],
-        "links": {"liveDemo": "" , "github": "https://github.com/erick1439/Multithreading-Elimination-Stack"},
+        "icons": [
+          {
+            "name":"github-durable-queue",
+            "url":"https://github.com/erick1439/Multithreading-Elimination-Stack",
+            "className":"fa fa-github"
+          }
+        ],
         "size": "470"
       },
       {
         "title":"React Native Login System",
         "description": "This is an example of a project that I decided to create to explore and learn more about the React Native. To authenticate users I am using Google's Firebase tools to get familiar with their authentication system.",
         "images": ["reactNativeLogin1.png","reactNativeLogin2.png","reactNativeLogin3.png"],
-        "links": {"liveDemo": "" , "github": "https://github.com/erick1439/React-Native-Login-System"},
+        "icons": [
+          {
+            "name":"github-reactNative-login",
+            "url":"https://github.com/erick1439/React-Native-Login-System",
+            "className":"fa fa-github"
+          }
+        ],
         "size": "200"
       }
     ]
