@@ -33,10 +33,10 @@ header {
    height: 800px;
    min-height: 500px;
    width: 100%;
-   background: #161415 url(../images/header-background.jpg) no-repeat top center;
+   background: white url(../images/header-background.jpg) no-repeat top center;
+   background-position: 550px 0px;
    background-size: cover !important;
 	-webkit-background-size: cover !important;
-   text-align: center;
    overflow: hidden;
 }
 
@@ -59,17 +59,16 @@ header .banner {
 header .banner-text { width: 100%; }
 header .banner-text h1 {
    font: 90px/1.1em 'opensans-bold', sans-serif;
-   color: #fff;
+   color: #081b4d;
    letter-spacing: -2px;
    margin: 0 auto 18px auto;
-   text-shadow: 0px 1px 3px rgba(0, 0, 0, .8);
 }
 header .banner-text h3 {
    font: 18px/1.9em 'librebaskerville-regular', serif;
-   color: #A8A8A8;
+   color: black;
    margin: 0 auto;
+   font-weight: bold;
    width: 70%;
-   text-shadow: 0px 1px 2px rgba(0, 0, 0, .5);
 }
 header .banner-text h3 span,
 header .banner-text h3 a {
@@ -87,14 +86,13 @@ header .social {
    margin: 24px 0;
    padding: 0;
    font-size: 30px;
-   text-shadow: 0px 1px 2px rgba(0, 0, 0, .8);
 }
 header .social li {
    display: inline-block;
    margin: 0 15px;
    padding: 0;
 }
-header .social li a { color: #fff; }
+header .social li a { color: #081b4d; }
 header .social li a:hover { color: #11ABB0; }
 
 /* scrolldown link */
@@ -130,20 +128,28 @@ header .scrolldown a:hover { color: #11ABB0; }
 
 /* nav-wrap */
 #nav-wrap {
-   font: 12px 'opensans-bold', sans-serif;
+   font: 14px 'opensans-bold', sans-serif;
    width: 100%;
    text-transform: uppercase;
    letter-spacing: 2.5px;
    margin: 0 auto;
    z-index: 100;
    position: fixed;
+   padding: 0px 40px;
+   height: 55px;
    left: 0;
    top: 0;
 }
-.opaque { background-color: #333; }
+.opaque { background-color: white; }
 
 /* hide toggle button */
 #nav-wrap > a.mobile-btn { display: none; }
+
+#nav {
+   display: flex;
+   align-items: center;
+   height: 55px;
+}
 
 ul#nav {
    min-height: 48px;
@@ -169,7 +175,8 @@ ul#nav li a {
    line-height: 32px;
 	text-decoration: none;
    text-align: left;
-   color: #fff;
+   color: #081b4d;
+   font-weight: bold;
 
 	-webkit-transition: color .2s ease-in-out;
 	-moz-transition: color .2s ease-in-out;

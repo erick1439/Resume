@@ -19,6 +19,10 @@
       margin: 0 auto 12px auto;
    }
 
+   header {
+      text-align: center;
+   }
+
 }
 
 /* screenwidth less than 900px
@@ -176,6 +180,7 @@
    }
   
    ul#nav li a {  
+      color: white;
       display: block;    
       margin: 0;
       padding: 0;      
@@ -183,7 +188,6 @@
       line-height: 16px; /* reset line-height from 48px */
       border: none;
    }  
-
 
    /* Header Styles
    -------------------------------------------------------------------- */
