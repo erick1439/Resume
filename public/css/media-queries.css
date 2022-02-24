@@ -18,8 +18,12 @@
       letter-spacing: -1px;
       margin: 0 auto 12px auto;
    }
-
+   
    header {
+      background-position: 0px 0px;
+      background: #fff url(../images/header-background.jpg) no-repeat bottom center;
+      background-size: 200px 200px !important;
+      -webkit-background-size: 200px 200px !important;
       text-align: center;
    }
 
