@@ -2,9 +2,9 @@
   "main": { 
     "name":"Erick Pena",
     "occupation":"Sotware Engineer",
-    "description":"I am a highly motivated profesional with a strong Computer Science background. I am very passionate about programming and I am always looking for new technologies to learn. Seek to pursue a new position with room for advancement alongside a growing team",
+    "description":"I am a highly motivated professional with a strong Computer Science background. I am very passionate about programming and I am always looking for new technologies to learn. Seek to pursue a new position with room for advancement alongside a growing team.",
     "image":"profilepic.jpg",
-    "bio":"I am an enthusiastic person with a great passion for programming. I graduated from the University of Central Florida in the year 2020 with a bachelor’s degree in computer science. I have been in the work force for more than a year now. In this time I have come to realize that there is a whole world that is yet to be explore. Many opportunities in the this amazing field make me see the future with excitement. Apart from programming some of the activities that keep me busy are learning to play the guitar and taking Portuguese lessons. Feel free to check my work and if you have any question don't hesitate to contact me.",
+    "bio":"I am an enthusiastic person with a great passion for programming. I graduated from the University of Central Florida in the year 2020 with a bachelor’s degree in computer science. I have been in the workforce for more than a year now. In this time I have come to realize that there is a whole world that is yet to be explored. Many opportunities in this amazing field make me see the future with excitement. Apart from programming some of the activities that keep me busy are learning to play the guitar and taking Portuguese lessons. Feel free to check my work and if you have any questions don't hesitate to contact me.",
     "contactmessage":"Here is where you should write your message to readers to have them get in contact with you.",
     "email": "erick1439@live.com",
     "phone": "(845)-461-9811",
@@ -40,7 +40,7 @@
         "school":"University of Central Florida",
         "degree":"Bachelor of Computer Science",
         "graduated":"August 2020",
-        "description":"This is the institute where I was able to solidify many of my skills. Some of my favorite courses I have taken are parallel computing, computer graphics, and artificial intelligence. Also, during my time here I have been part of the Dean’s List multiple occasions for maintaining a GPA above 3.8."
+        "description":"This is the institute where I was able to solidify many of my skills. Some of my favorite courses I have taken are parallel computing, computer graphics, and artificial intelligence. Also, during my time here I have been part of the Dean’s List on multiple occasions for maintaining a GPA above 3.8."
       },
       {
         "school":"Valencia College",
@@ -65,15 +65,15 @@
         "years":"January 2020 - Nov 2020",
         "descriptions": ["Developed cryptocurrency using DAG technology which helped to improve the number of transactions from 4 to 230 transactions per second from previous blockchain implementation",
           "Develop set of APIs to connect gaming mobile app to cryptocurrency network to distribute 100,000+ virtual coins to users who successfully complete augmented-reality challenges",
-          "Recognized by UCF’s CECS showcase as innovative project and made an appearance in local news"
+          "Recognized by UCF’s CECS showcase as an innovative project and made an appearance in local news"
         ]
       },
       {
         "company":"Self Employed",
         "title":"Computer Science and Math Tutor",
         "years":"January 2019 – March 2020",
-        "descriptions": ["Worked closely with UCF students provide supplemental tutoring",
-          "Elaborated different lessons plans to accommodate students at different levels and improve effectiveness",
+        "descriptions": ["Worked closely with UCF students to provide supplemental tutoring",
+          "Elaborated different lesson plans to accommodate students at different levels and improve the effectiveness",
           "Tutored courses such as Data Structures and Algorithms, Intro to C programming, OOP, and Calculus"
         ]
       },
@@ -81,7 +81,7 @@
         "company":"Universal Studios Orlando",
         "title":"Attraction Operator",
         "years":"February 2017 - Present",
-        "descriptions": ["Deliver top quality customer service in professional manner while managing multiple tasks",
+        "descriptions": ["Deliver top-quality customer service in a professional manner while managing multiple tasks",
           "Ensure the proper use of safety practices and procedures while operating the attraction",
           "Evaluate and communicate with co-workers to meet goals and accomplish tasks"
         ]
@@ -122,7 +122,7 @@
     "projects": [
       {
         "title":"Contacts Manger",
-        "description": "This is a friendly responsive website that allows you to store all of your contacts in an organize manner. The application allows login, registration, and CRUD operations This project was developed with MongoDB, Express.js, React.js, and Node.js.",
+        "description": "This is a friendly responsive website that allows you to store all of your contacts in an organized and concise manner. The application allows login, registration, and CRUD operations. This project was developed with MongoDB, Express.js, React.js, and Node.js.",
         "images": ["contactsManager1.png","contactsManager2.png"],
         "icons": [
           { 
@@ -140,7 +140,7 @@
       },
       {
         "title":"Weather 24/7",
-        "description": "This is a responsive website that allows users to check forecast and news of any city of their choice. The website will make use of third-party APIs to gather the all the info that the user requests.",
+        "description": "This is a responsive website that allows users to check forecasts and news of their current location and any other city of their choice. The website will make use of third-party APIs to gather all the required information and display it in a friendly and organized manner. This project was developed with React.js and Node.js.",
         "images": ["weatherApp1.png", "weatherApp2.png"],
         "icons": [
           { 
@@ -158,7 +158,7 @@
       },
       {
         "title":"SQL-GUI",
-        "description": "This is a Java-based GUI application that will connect to your MySQL server via JDBC allowing you to run SQL queries and have visual representation of your data. The application was develop with Java, Java-Swing, and SQL",
+        "description": "This is a Java-based GUI application that will connect to your MySQL server via JDBC allowing you to run SQL queries and have a visual representation of your data. The application was developed with Java, Java-Swing, and SQL.",
         "images": ["SQL-GUI1.png","SQL-GUI2.png"],
         "icons": [
           {
@@ -171,14 +171,14 @@
       },
       {
         "title":"Character Keep",
-        "description": "This forms part of a group project where the application was responsible to generate, collect, and save data from tabletop games such as Warhammer. I was in charge to create the mobile component of the interactive application on Android with the use of Java.",
+        "description": "This is part of a group project where the application is responsible to generate, collect, and save data from tabletop games such as Warhammer. I was in charge to create the mobile component of the interactive application on Android with the use of Java and SQL. ",
         "images": ["characterKeeper1.png","characterKeeper2.png"],
         "icons": [],
         "size": "470"
       },
       {
         "title":"3D Cell Model",
-        "description": "Develop in JavaScript with the help of Three.js, HTML, CSS, and Vectary. This is an interactive 3d project that allows users to learn the anatomy of an animal cell.",
+        "description": "This is an interactive 3d project that allows users to navigate, explore, and learn the anatomy of an animal cell. The user is able to pinpoint a particular area of the cell and learn how an individual component works. This project was developed in JavaScript with the help of Three.js, HTML, CSS, and Vectary.",
         "images": ["3dCell1.png","3dCell2.png"],
         "icons": [
           { 
@@ -196,7 +196,7 @@
       },
       {
         "title":"Atlantic Trails Resort",
-        "description": "Developed with the use of HTML, CSS, JavaScript, and jQuery. This is a friendly responsive website used as the main online tool to represent a vacation Resort.",
+        "description": "This is a friendly responsive website used as the main online tool to represent a vacation Resort. The website allows the user to contact the resort and navigate through the activities offered throughout the day. The project was developed with the use of HTML, CSS, JavaScript, and jQuery.",
         "images": ["atlantic1.png","atlantic2.png"],
         "icons": [
           {
@@ -209,14 +209,14 @@
       },
       {
         "title":"PL/0 Compiler",
-        "description": "Develop in C, this program takes PL/0 instructions then it reads them character by character detecting any syntax errors, then it will parse it, and output the result from many of the logistics operations that was able to perform.",
+        "description": "PL/0 is a compiler built-in C  that is able to read instructions character by character detecting any syntax errors, parsing it, and outputting results from many logistics operations that the program is able to perform.",
         "images": [],
         "icons": [],
         "size": "470"
       },
       {
         "title":"Durable Queue for Non-Volatile Memory:",
-        "description": "This is part of a published research report that explains the scalability from the implementation of a durable queue for non-volatile memory created by my colleagues and me.",
+        "description": "This is part of a published research report that explains the scalability from the implementation of a durable queue for non-volatile memory created by my colleagues and me. This project is developed in Java.",
         "images": [],
         "icons": [
           {
@@ -229,7 +229,7 @@
       },
       {
         "title":"React Native Login System",
-        "description": "This is an example of a project that I decided to create to explore and learn more about the React Native. To authenticate users I am using Google's Firebase tools to get familiar with their authentication system.",
+        "description": "This is an example of a project that I decided to create to explore and learn more about React Native. To authenticate users I am using Google's Firebase tools to get familiar with their authentication system.",
         "images": ["reactNativeLogin1.png","reactNativeLogin2.png","reactNativeLogin3.png"],
         "icons": [
           {
