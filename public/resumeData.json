@@ -139,6 +139,24 @@
         "size": "470"
       },
       {
+        "title":"Visual Game Solver",
+        "description": "This project consists of a website that will solve popular puzzles showing a visual representation of how they get solved by a computer. At the moment you can see how computers can solve sudoku boards, mazes, and sort lists. This project was developed with React.js, Express.js, and Node.js.",
+        "images": ["visualGameSolver1.png", "visualGameSolver2.png", "visualGameSolver3.png"],
+        "icons": [
+          { 
+            "name":"website-contacts",
+            "url":"https://visual-game-solver.herokuapp.com/",
+            "className":"fa fa-globe"
+          }, 
+          {
+            "name":"github-contacts",
+            "url":"https://github.com/erick1439/VisualGameSolver",
+            "className":"fa fa-github"
+          }
+        ],
+        "size": "470"
+      },
+      {
         "title":"Weather 24/7",
         "description": "This is a responsive website that allows users to check forecasts and news of their current location and any other city of their choice. The website will make use of third-party APIs to gather all the required information and display it in a friendly and organized manner. This project was developed with React.js and Node.js.",
         "images": ["weatherApp1.png", "weatherApp2.png"],
