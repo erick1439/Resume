@@ -191,7 +191,13 @@
         "title":"Character Keep",
         "description": "This is part of a group project where the application is responsible to generate, collect, and save data from tabletop games such as Warhammer. I was in charge to create the mobile component of the interactive application on Android with the use of Java and SQL. ",
         "images": ["characterKeeper1.png","characterKeeper2.png"],
-        "icons": [],
+        "icons": [
+          {
+            "name":"github-character-keep",
+            "url":"https://github.com/erick1439/CharacterKeep",
+            "className":"fa fa-github"
+          }
+        ],
         "size": "470"
       },
       {
