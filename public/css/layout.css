@@ -439,7 +439,7 @@ ul#nav li.current a { color: #F06000; }
 
 #portfolio {
    background: #ebeeee;
-   padding-top: 55px;
+   padding-top: 25px;
    padding-bottom: 60px;
 }
 #portfolio h1 {
@@ -447,8 +447,13 @@ ul#nav li.current a { color: #F06000; }
    text-transform: uppercase;
    letter-spacing: 1px;
    text-align: center;
-   margin-bottom: 30px;
+   margin-bottom: 15px;
    color: black;
+}
+
+#portfolio ul {
+   font-size: 20px;
+   margin: 10px 0 0 0;
 }
 
 .projectcontainer {
@@ -458,6 +463,8 @@ ul#nav li.current a { color: #F06000; }
 
 .projectcontainer h2 {
    font-size: 20px;
+   padding: 0;
+   padding-right: 7px;
 }
 
 .projectcontainer div {
@@ -611,6 +618,22 @@ ul#nav li.current a { color: #F06000; }
 @media only screen and (max-width: 460px) {
    img {
      display: none;
+   }
+}
+
+@media only screen and (max-width: 460px) {
+
+
+   .projectcontainer h2 {
+      font-size: 15px;
+      margin-right: 2px;
+      padding: 0px;
+   }
+   
+
+   #portfolio ul {
+      display: flex;
+      font-size: 15px;
    }
 }
 
