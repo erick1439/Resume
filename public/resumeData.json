@@ -55,7 +55,8 @@
         "title":"Software Engineer",
         "years":"January 2022 - Present",
         "descriptions": ["Developed and maintained payment portal to allow teachers from more than 80,000+ learning institutions nationwide to obtain educational certifications",
-          "Developed multithreading algorithms to improve time efficiency from data processing operations by up to 35% from previous single threading implementations"
+          "Developed multithreading algorithms to improve time efficiency from data processing operations by up to 35% from previous single threading implementations",
+          "Developed user interface application to help admin user visualize big amounts of data in an easy and consice way"
         ]
       },
       {
