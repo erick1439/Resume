@@ -4,7 +4,7 @@
     "occupation":"Sotware Engineer",
     "description":"I am a highly motivated professional with a strong Computer Science background. Seeking to pursue a new position with room for advancement alongside a growing team",
     "image":"profilepic.jpg",
-    "bio":"I am an enthusiastic professional with a great passion for programming. I graduated from the University of Central Florida in the year 2020 with a bachelor’s degree in computer science. I have been in the workforce for more than a year now and I have come to realize that there is a whole world that is yet to be explored. Many opportunities in this amazing field make me see the future with excitement. Apart from programming some of the activities that keep me busy are learning to play the guitar and taking Portuguese lessons. Feel free to check my work and if you have any questions don't hesitate to contact me.",
+    "bio":"I am an enthusiastic professional with a great passion for programming. I graduated from the University of Central Florida in the year 2020 with a bachelor’s degree in computer science. I have been in the tech workforce for more than 3 years now and I have come to realize that there is a whole world that is yet to be explored. Many opportunities in this amazing field make me see the future with excitement. Apart from programming some of the activities that keep me busy are learning to play the guitar and taking Portuguese lessons. Feel free to check my work and if you have any questions don't hesitate to contact me.",
     "contactmessage":"Here is where you should write your message to readers to have them get in contact with you.",
     "email": "erick1439@live.com",
     "phone": "(845)-461-9811",
@@ -153,12 +153,12 @@
       },
       {
         "title":"Visual Game Solver",
-        "description": "This project consists of a website that will solve popular puzzles showing a visual representation of how they get solved by a computer. At the moment you can see how computers can solve sudoku boards, mazes, and sort lists. This project was developed with React.js, Express.js, and Node.js.",
+        "description": "This project consists of a website that will solve popular puzzles games showing a visual representation of how they get solved by a computer. At the moment you can see how computers can solve sudoku boards, mazes, and sort lists using sorting and backtracking techniques. This project was developed with React.js, Express.js, and Node.js.",
         "images": ["visualGameSolver1.png", "visualGameSolver2.png", "visualGameSolver3.png"],
         "icons": [
           { 
             "name":"website-contacts",
-            "url":"https://visual-game-solver.herokuapp.com/",
+            "url":"https://erick1439.github.io/visual-game-solver-client/",
             "className":"fa fa-globe"
           }, 
           {
