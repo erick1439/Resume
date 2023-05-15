@@ -153,7 +153,7 @@
       },
       {
         "title":"Visual Game Solver",
-        "description": "This project consists of a website that will solve popular puzzles games showing a visual representation of how they get solved by a computer. At the moment you can see how computers can solve sudoku boards, mazes, and sort lists using sorting and backtracking techniques. This project was developed with React.js, Express.js, and Node.js.",
+        "description": "This project consists of a website that will solve popular puzzles games showing a visual representation of how they get solved by a computer. At the moment you can see how computers can solve sudoku boards, mazes, and sort lists using sorting and backtracking algorithms. This project was developed with React.js, Express.js, and Node.js.",
         "images": ["visualGameSolver1.png", "visualGameSolver2.png", "visualGameSolver3.png"],
         "icons": [
           { 
@@ -215,12 +215,12 @@
       },
       {
         "title":"3D Cell Model",
-        "description": "This is an interactive 3d project that allows users to navigate, explore, and learn the anatomy of an animal cell. The user is able to pinpoint a particular area of the cell and learn how an individual component works. This project was developed in JavaScript with the help of Three.js, HTML, CSS, and Vectary.",
+        "description": "This is an interactive 3d project that allows users to navigate, explore, and learn the anatomy of an animal cell. The user is able to pinpoint a particular area of the cell and learn how an individual component works. This project makes use of raycasting to pinpoint elements and the use of different algorithms to manipulate and render the textures and objects in the screen. The project was developed in Node.js, Three.js, and React.js",
         "images": ["3dCell1.png","3dCell2.png"],
         "icons": [
           { 
             "name":"website-cell",
-            "url":"https://cell-model-3d.herokuapp.com/",
+            "url":"https://erick1439.github.io/3d-Cell-Model/",
             "className":"fa fa-globe"
           }, 
           {
@@ -233,9 +233,14 @@
       },
       {
         "title":"Atlantic Trails Resort",
-        "description": "This is a friendly responsive website used as the main online tool to represent a vacation Resort. The website allows the user to contact the resort and navigate through the activities offered throughout the day. The project was developed with the use of HTML, CSS, JavaScript, and jQuery.",
+        "description": "This is a friendly responsive website used as the main online tool to represent a vacation Resort. The website allows the user to contact the resort and navigate through the activities offered throughout the day. This is the first website I created; It allowed me to learn some fundametal technologies in web development such as: HTML, CSS, JavaScript, and jQuery.",
         "images": ["atlantic1.png","atlantic2.png"],
         "icons": [
+          { 
+            "name":"atlantic trails resort website",
+            "url":"https://erick1439.github.io/Atlantic-Trails-Resort/",
+            "className":"fa fa-globe"
+          }, 
           {
             "name":"github-atlantic",
             "url":"https://github.com/erick1439/Atlantic-Trails-Resort",
