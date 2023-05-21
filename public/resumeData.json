@@ -183,6 +183,24 @@
         "size": "470"
       },
       {
+        "title":"3D Cell Model",
+        "description": "This is an interactive 3d project that allows users to navigate, explore, and learn the anatomy of an animal cell. The user is able to pinpoint a particular area of the cell and learn how an individual component works. This project makes use of raycasting to pinpoint elements and the use of different algorithms to manipulate and render the textures and objects in the screen. The project was developed in Node.js, Three.js, and React.js",
+        "images": ["3dCell1.png","3dCell2.png"],
+        "icons": [
+          { 
+            "name":"website-cell",
+            "url":"https://erick1439.github.io/3d-Cell-Model/",
+            "className":"fa fa-globe"
+          }, 
+          {
+            "name":"github-cell",
+            "url":"https://github.com/erick1439/3d-Cell-Model",
+            "className":"fa fa-github"
+          }
+        ],
+        "size": "470"
+      },
+      {
         "title":"Weather 24/7",
         "description": "This is a responsive website that allows users to check forecasts and news of their current location and any other city of their choice. The website will make use of third-party APIs to gather all the required information and display it in a friendly and organized manner. This project was developed with React.js and Node.js.",
         "images": ["weatherApp1.png", "weatherApp2.png"],
@@ -195,19 +213,6 @@
           {
             "name":"github-weather",
             "url":"https://github.com/erick1439/WeatherApp",
-            "className":"fa fa-github"
-          }
-        ],
-        "size": "470"
-      },
-      {
-        "title":"SQL-GUI",
-        "description": "This is a Java-based GUI application that will connect to your MySQL server via JDBC allowing you to run SQL queries and have a visual representation of your data. The application was developed with Java, Java-Swing, and SQL.",
-        "images": ["SQL-GUI1.png","SQL-GUI2.png"],
-        "icons": [
-          {
-            "name":"github-sql-gui",
-            "url":"https://github.com/erick1439/SQL-GUI",
             "className":"fa fa-github"
           }
         ],
@@ -227,18 +232,13 @@
         "size": "470"
       },
       {
-        "title":"3D Cell Model",
-        "description": "This is an interactive 3d project that allows users to navigate, explore, and learn the anatomy of an animal cell. The user is able to pinpoint a particular area of the cell and learn how an individual component works. This project makes use of raycasting to pinpoint elements and the use of different algorithms to manipulate and render the textures and objects in the screen. The project was developed in Node.js, Three.js, and React.js",
-        "images": ["3dCell1.png","3dCell2.png"],
+        "title":"SQL-GUI",
+        "description": "This is a Java-based GUI application that will connect to your MySQL server via JDBC allowing you to run SQL queries and have a visual representation of your data. The application was developed with Java, Java-Swing, and SQL.",
+        "images": ["SQL-GUI1.png","SQL-GUI2.png"],
         "icons": [
-          { 
-            "name":"website-cell",
-            "url":"https://erick1439.github.io/3d-Cell-Model/",
-            "className":"fa fa-globe"
-          }, 
           {
-            "name":"github-cell",
-            "url":"https://github.com/erick1439/3d-Cell-Model",
+            "name":"github-sql-gui",
+            "url":"https://github.com/erick1439/SQL-GUI",
             "className":"fa fa-github"
           }
         ],
@@ -263,6 +263,19 @@
         "size": "470"
       },
       {
+        "title":"React Native Login System",
+        "description": "This is an example of a project that I decided to create to explore and learn more about React Native. To authenticate users I am using Google's Firebase tools to get familiar with their authentication system.",
+        "images": ["reactNativeLogin1.png","reactNativeLogin2.png","reactNativeLogin3.png"],
+        "icons": [
+          {
+            "name":"github-reactNative-login",
+            "url":"https://github.com/erick1439/React-Native-Login-System",
+            "className":"fa fa-github"
+          }
+        ],
+        "size": "200"
+      },
+      {
         "title":"PL/0 Compiler",
         "description": "PL/0 is a compiler built-in C  that is able to read instructions character by character detecting any syntax errors, parsing it, and outputting results from many logistics operations that the program is able to perform.",
         "images": [],
@@ -281,19 +294,6 @@
           }
         ],
         "size": "470"
-      },
-      {
-        "title":"React Native Login System",
-        "description": "This is an example of a project that I decided to create to explore and learn more about React Native. To authenticate users I am using Google's Firebase tools to get familiar with their authentication system.",
-        "images": ["reactNativeLogin1.png","reactNativeLogin2.png","reactNativeLogin3.png"],
-        "icons": [
-          {
-            "name":"github-reactNative-login",
-            "url":"https://github.com/erick1439/React-Native-Login-System",
-            "className":"fa fa-github"
-          }
-        ],
-        "size": "200"
       }
     ]
   }
