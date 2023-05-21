@@ -265,6 +265,7 @@ ul#nav li.current a { color: #F06000; }
 }
 #resume h3 {
    font: 25px/30px 'opensans-bold', sans-serif;
+   margin-bottom: 0;
 }
 
 #resume .header-col { padding-top: 9px; }
@@ -279,7 +280,7 @@ ul#nav li.current a { color: #F06000; }
    font: 16px/24px 'librebaskerville-italic', serif;
    color: #6E7881;
    margin-bottom: 18px;
-   margin-top: 9px;
+   margin-top: 4px;
 }
 
 #resume li,p {
