@@ -134,19 +134,14 @@
   "portfolio":{
     "projects": [
       {
-        "title":"Contacts Manger",
-        "description": "This is a friendly responsive website that allows you to store all of your contacts in an organized and concise manner. The application allows login, registration, and CRUD operations. This project was developed with MongoDB, Express.js, React.js, and Node.js.",
-        "images": ["contactsManager1.png","contactsManager2.png"],
+        "title":"YT-Summarizer",
+        "description": "This project is a Google Chrome extension which provides the user a small paragraph that summarize a clicked YouTube video without  the user needing to play the video. The goal of the application is to give the user the ability to see if the video is of their interest and avoid “click bait”. The application also has the feature to find timestamps when specific words  are mentioned, give lists of the most used words in the video, and an option to get the full transcript of the video.  This project uses node.js, AWS Lambda, and ChatGPT's AI capabilities.",
+        "images": ["yt-summarizer1.png","yt-summarizer2.png"],
         "icons": [
           { 
-            "name":"website-contacts",
-            "url":"https://erick1439.github.io/Contacts-app-client",
+            "name":"YT-Summarizer",
+            "url":"https://chrome.google.com/webstore/detail/yt-summarizer/figelpohbejmbenpbhjciincbkafoekg?hl=en",
             "className":"fa fa-globe"
-          }, 
-          {
-            "name":"github-contacts",
-            "url":"https://github.com/erick1439/Contacts",
-            "className":"fa fa-github"
           }
         ],
         "size": "470"
@@ -164,6 +159,24 @@
           {
             "name":"github-contacts",
             "url":"https://github.com/erick1439/VisualGameSolver",
+            "className":"fa fa-github"
+          }
+        ],
+        "size": "470"
+      },
+      {
+        "title":"Contacts Manger",
+        "description": "This is a friendly responsive website that allows you to store all of your contacts in an organized and concise manner. The application allows login, registration, and CRUD operations. This project was developed with MongoDB, Express.js, React.js, and Node.js.",
+        "images": ["contactsManager1.png","contactsManager2.png"],
+        "icons": [
+          { 
+            "name":"website-contacts",
+            "url":"https://erick1439.github.io/Contacts-app-client",
+            "className":"fa fa-globe"
+          }, 
+          {
+            "name":"github-contacts",
+            "url":"https://github.com/erick1439/Contacts",
             "className":"fa fa-github"
           }
         ],
