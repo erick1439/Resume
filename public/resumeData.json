@@ -148,7 +148,7 @@
       },
       {
         "title":"Visual Game Solver",
-        "description": "This project consists of a website that will solve popular puzzles games showing a visual representation of how they get solved by a computer. At the moment you can see how computers can solve sudoku boards, mazes, and sort lists using sorting and backtracking algorithms. This project was developed with React.js, Express.js, and Node.js.",
+        "description": "This project consists of a website that will solve popular puzzles games showing a visual representation of how they get solved by a computer. At the moment you can see how computers can solve sudoku boards, mazes, and sort lists using sorting and backtracking algorithms. This project was developed with React.js, Express.js, Node.js, and AWS Lambda.",
         "images": ["visualGameSolver1.png", "visualGameSolver2.png", "visualGameSolver3.png"],
         "icons": [
           { 
