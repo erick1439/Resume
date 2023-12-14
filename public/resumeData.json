@@ -22,11 +22,6 @@
         "className":"fa fa-linkedin"
       },
       {
-        "name":"instagram",
-        "url":"https://www.instagram.com/erick1439",
-        "className":"fa fa-instagram"
-      },
-      {
         "name":"github",
         "url":"http://github.com/erick1439",
         "className":"fa fa-github"
